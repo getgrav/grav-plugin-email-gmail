@@ -51,7 +51,7 @@ class EmailGmailPlugin extends Plugin
         if ($engine === 'gmail') {
             $options = $this->config->get('plugins.email-gmail');
             $dsn = "gmail+smtp://";
-            $dsn .= urlencode($options['username']) .":".urlencode($options['password']);
+            $dsn .= urlencode($options['username'] ?? '') .":".urlencode($options['password'] ?? '');
             $dsn .= "@default";
             $e['dsn'] = $dsn;
             $e->stopPropagation();
