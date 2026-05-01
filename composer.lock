@@ -8,22 +8,25 @@
     "packages": [
         {
             "name": "symfony/google-mailer",
-            "version": "v5.4.8",
+            "version": "v5.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/google-mailer.git",
-                "reference": "8da892489a7536e869c56efa06bf2f74f15a4693"
+                "reference": "6d7191a30fd2ae0ab740a93cfbf7fba64834aed6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/google-mailer/zipball/8da892489a7536e869c56efa06bf2f74f15a4693",
-                "reference": "8da892489a7536e869c56efa06bf2f74f15a4693",
+                "url": "https://api.github.com/repos/symfony/google-mailer/zipball/6d7191a30fd2ae0ab740a93cfbf7fba64834aed6",
+                "reference": "6d7191a30fd2ae0ab740a93cfbf7fba64834aed6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
                 "psr/event-dispatcher": "^1",
-                "symfony/mailer": "^4.4|^5.0|^6.0"
+                "symfony/mailer": "^5.4.21|^6.2.7"
+            },
+            "require-dev": {
+                "symfony/http-client": "^4.4|^5.0|^6.0"
             },
             "type": "symfony-mailer-bridge",
             "autoload": {
@@ -51,7 +54,7 @@
             "description": "Symfony Google Mailer Bridge",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/google-mailer/tree/v5.4.8"
+                "source": "https://github.com/symfony/google-mailer/tree/v5.4.35"
             },
             "funding": [
                 {
@@ -67,7 +70,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-12T15:48:08+00:00"
+            "time": "2024-01-23T13:51:25+00:00"
         }
     ],
     "packages-dev": [],
@@ -83,5 +86,5 @@
     "platform-overrides": {
         "php": "7.3.6"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
